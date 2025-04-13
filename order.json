@@ -1,0 +1,59 @@
+[
+  {
+    "user": { "$oid": "67ae292bf7b32c26211e728f" },
+    "products": [
+      {
+        "product": { "$oid": "67971b6ebc4f0f6c13892b23" },
+        "quantity": 1,
+        "title": "Smartphone",
+        "price": 699.99
+      },
+      {
+        "product": { "$oid": "67971b6ebc4f0f6c13892b24" },
+        "quantity": 2,
+        "title": "Stylish Jacket",
+        "price": 89.99
+      }
+    ],
+    "total": 879.97,
+    "status": "completed",
+    "payment": "credit_card",
+    "transactionId": "TX123456789"
+  },
+  {
+    "user": { "$oid": "67ae292bf7b32c26211e728f" },
+    "products": [
+      {
+        "product": { "$oid": "67971b6ebc4f0f6c13892b25" },
+        "quantity": 1,
+        "title": "Coffee Maker",
+        "price": 49.99
+      },
+      {
+        "product": { "$oid": "67971b6ebc4f0f6c13892b26" },
+        "quantity": 1,
+        "title": "Mystery Novel",
+        "price": 15.99
+      }
+    ],
+    "total": 65.98,
+    "status": "pending",
+    "payment": "paypal",
+    "transactionId": "TX987654321"
+  },
+  {
+    "user": { "$oid": "67ae292bf7b32c26211e728f" },
+    "products": [
+      {
+        "product": { "$oid": "67971b6ebc4f0f6c13892b27" },
+        "quantity": 3,
+        "title": "Yoga Mat",
+        "price": 29.99
+      }
+    ],
+    "total": 89.97,
+    "status": "canceled",
+    "payment": "credit_card",
+    "transactionId": "TX112233445"
+  }
+]
